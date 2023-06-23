@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welton</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <img src="./assets/welton.jpeg" alt="Foto de Welton">
+    <h1>Welton Felix</h1>
+    <p>Estudante de Ciência da Computação</p>
+
+    <div class="social">
+      <a href="https://www.linkedin.com/in/weltonfelix" target="_blank" rel="noopener noreferrer">
+        <i data-feather="linkedin"></i>
+      </a>
+      <a href="https://github.com/weltonfelix" target="_blank" rel="noopener noreferrer">
+        <i data-feather="github"></i>
+      </a>
+      <a href="https://instagram.com/_weltonfelix" target="_blank" rel="noopener noreferrer">
+        <i data-feather="instagram"></i>
+      </a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="content">
+    <main>
+      <div>
+        <h2 class="section-title" id="hobbies">Hobbies</h2>
+        <p>Gosto de tocar violão, ler, fazer pão e ouvir música... não necessariamente nessa ordem... não sei... 🤔</p>
+      </div>
+      <div>
+        <h2 class="section-title" id="about">Um pouco sobre mim</h2>
+        <p>
+          Sou apaixonado por tecnologia mas também gosto muito da área de política e ciências sociais, principalmente
+          relações internacionais! No ensino médio, fundei um clube de relações internacionais junto com outros colegas.
+        </p>
+      </div>
+      <div>
+        <h2 class="section-title" id="contact">Entre em contato</h2>
+        <p>
+          Se quiser falar comigo, pode enviar um e-mail para
+          <a href="mailto:wplf@cin.ufpe.br" target="_blank" rel="noopener noreferrer">wplf@cin.ufpe.br</a> ou
+          preencher este formulário:
+        </p>
+        <form action="mailto:wplf@cin.ufpe.br" method="GET" enctype="text/plain">
+          <input type="text" name="subject" placeholder="Assunto" />
+          <textarea placeholder="Mensagem" name="body"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Esta página foi desenvolvida como um projeto para a disciplina
+        <a href="https://www.cin.ufpe.br/~if668/" target="_blank" rel="noopener noreferrer">Introdução a Computação</a>
+        do curso de Ciência da Computação do
+        <a href="http://cin.ufpe.br/" target="_blank" rel="noopener noreferrer">
+          CIn - UFPE
+        </a>
+        . O código-fonte está disponível
+        <a href="https://github.com/weltonfelix/ic-html-project" target="_blank" rel="noopener noreferrer">
+          neste repositório
+        </a>.
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>
